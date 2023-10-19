@@ -1,0 +1,54 @@
+.btn {
+    padding: 5px 10px;
+    margin-left: 10px;
+  }
+
+  .btn-edit {
+    background-color: green;
+    color: white;
+  }
+
+  .btn-delete {
+    background-color: red;
+    color: white;
+  }
+
+  .list-item {
+    padding: 5px;
+  }
+
+  .header{
+    height: 55px;
+    background-color:rgb(102, 26, 73);
+    padding-left: 48px;
+    padding-right: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  #img_user{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+
+  }
+
+  .divHeader {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  
+  }
+
+  #username{
+    color: white;
+  }
+
+  .button_logout {
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 8px;
+  }

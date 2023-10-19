@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple ToDo List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="divHeader">
+      <img id="img_user" 
+      src="">
+      <div id="username"></div>
+    </div>
+    <button class="button_logout" onclick="onLogout()"> Logout</button>
+  </header>
+      <div>
+        <h1>Personal Catatan Kegiatan</h1>
+        <input type="text" id="taskInput" placeholder="Enter task">
+        <select id="statusSelect">
+          <option value="ongoing">Ongoing</option>
+          <option value="finished">Finished</option>
+          <option value="willDo">Will Do</option>
+        </select>
+        <button onclick="addTask()" class="btn-add">Add Task</button>
+      </div>
+      
+      <h2>Ongoing</h2>
+      <ul id="ongoing"></ul>
+      
+      <h2>Will Do</h2>
+      <ul id="willDo"></ul>
+      
+      <h2>Finished</h2>
+      <ul id="finished"></ul>
+
+  <script src="index.js"></script>
+</body>
+</html>
